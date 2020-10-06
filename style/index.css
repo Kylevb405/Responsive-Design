@@ -219,6 +219,21 @@ a:hover {
 	background-color: black;
 }
 
+.test-container {
+	width: 45%;
+}
+
+.test {
+	background: url("https://picsum.photos/200/300");
+	height: 20vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
 /* MEDIA 800 -------------------------------------------------------------------------------- */
 
 
@@ -263,13 +278,25 @@ a:hover {
 		flex-direction: row;
 		justify-content: space-around;
 	}
-	.gallery div {
-		width: 25%;
+	.special-thing {
+		display: none;
+	}
+	.right-here {
+		display: none;
 	}
 
-	.gallery .gallery-img {
+
+
+
+
+	/* .gallery div {
 		width: 25%;
-	}
+	} */
+
+	/* .gallery-img {
+		width: 25%;
+		height: 40vh;
+	} */
 
 }
 
@@ -277,3 +304,4 @@ a:hover {
 
 
 
+/* https://picsum.photos/200/300 */
